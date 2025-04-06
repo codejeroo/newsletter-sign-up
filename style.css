@@ -264,7 +264,6 @@ margin-bottom: 24px;
         height: 100%;
     }
 body {
-    overflow:hidden;
     background-color: var(--cs-white);
 }
 }
