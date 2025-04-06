@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+<main class="forms-container">
+
+  <div class="form1-container">
+
+    <img src="./assets/images/illustration-sign-up-mobile.svg" alt="illustration" class="img-form1">
+
+    <div class="form1-left-container">
+      <h1 class="form1-header text-preset-1-bold-mobile">Stay updated!</h1>
+      <p class="form1-description text-preset-2-regular">Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul class="benefits">
+        <li><img src="./assets/images/icon-list.svg" alt="check icon">Product discovery and building what matters</li>
+        <li><img src="./assets/images/icon-list.svg" alt="check icon"> Measuring to ensure updates are a success</li>
+        <li><img src="./assets/images/icon-list.svg" alt="check icon"> And much more!</li>
+      </ul>
+    
+    <form class="newsletter" id="newsletter">
+      <div class="error-message-container">
+        <label for="email" class="text-preset-3-regular">Email address</label>
+        <small class="text-preset-3-regular error-message">error message</small></div>
+            <input type="email" placeholder="email@company.com" id="email" class="text-preset-2-regular">
+            <button class="submit text-preset-2-bold">Subscribe to monthly newsletter</button>
+  </form>
+</div>
+
+
+</div>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+<div class="form2-container hidden">
+  <img src="./assets/images/icon-success.svg" alt="big icon of success" class="success-icon">
+
+  <h3 class="form2-header text-preset-1-bold-mobile">Thanks for subscribing!</h3>
+
+  <p class="form2-description">A confirmation email has been sent to <span class="highlight">value</span>
+    Please open it and click the button inside to confirm your subscription.</p>
+  <button class="dismiss-bt text-preset-2-bold">Dismiss message</button>
+  <!-- Success message end -->
+</div>
+</main>
+
+</body>
+</html>
